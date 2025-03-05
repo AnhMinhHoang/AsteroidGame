@@ -12,12 +12,13 @@ public class AudioManager : MonoBehaviour
 
     [Header("--------- Audio Clip ----------")]
     public AudioClip Background;
+    public AudioClip MenuBGM;
     public AudioClip Death;
     public AudioClip CoinCollected;
     public AudioClip Shoot;
     public AudioClip AsteroidDestroyed;
     public AudioClip ClickSFX;
-    public AudioClip MenuBGM;
+    public AudioClip DificultyUp;
     [Range(0, 100)]
     public int BGMVolumePercentage = 20;
     [Range(0, 100)]

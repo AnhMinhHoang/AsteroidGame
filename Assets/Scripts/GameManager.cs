@@ -58,6 +58,7 @@ public class GameManager : MonoBehaviour
 
         if (Score >= scoreThreshold * difficultyLevel && difficultyLevel <= maxDifficultyLevel)
         {
+            AudioManager.Instance.PlaySFX(AudioManager.Instance.DificultyUp);
             difficultyLevel++;
             IncreaseDifficulty();
             if(difficultyLevel >= maxDifficultyLevel) {

@@ -178,12 +178,15 @@ MonoBehaviour:
   musicSorce: {fileID: 8056368648827491283}
   sfxSource: {fileID: 6281900405286300013}
   Background: {fileID: 8300000, guid: fc5af015011ea3745b7f78ea1dd1049f, type: 3}
+  MenuBGM: {fileID: 8300000, guid: 89f935015cc98724a862a586326fdf21, type: 3}
   Death: {fileID: 8300000, guid: 7e26c9daf4c32483b9c2790e662d3f1b, type: 3}
   CoinCollected: {fileID: 8300000, guid: 2c5292ba5cf254919a6b9e2b18e04f49, type: 3}
   Shoot: {fileID: 8300000, guid: 881e3f52c86c94f26a60718d35627cd8, type: 3}
   AsteroidDestroyed: {fileID: 8300000, guid: 7bef0064f8567430cac22499c6b93d4f, type: 3}
   ClickSFX: {fileID: 8300000, guid: efc3f2eb62e42f44b849b70d51c2fe58, type: 3}
-  MenuBGM: {fileID: 8300000, guid: 89f935015cc98724a862a586326fdf21, type: 3}
+  DificultyUp: {fileID: 8300000, guid: 35fbad8cdde724f11ba6481f1e64af71, type: 3}
+  BGMVolumePercentage: 20
+  SFXVolumePercentage: 100
 --- !u!1 &9056984272756561092
 GameObject:
   m_ObjectHideFlags: 0
